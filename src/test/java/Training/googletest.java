@@ -1,4 +1,4 @@
-package Test;
+package Training;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
