@@ -6,8 +6,8 @@ package cucumberTest;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/Features"
-        ,glue={"src/test/java/stepDefinition"}
+        features = ("src/test/resources/Features")
+        ,glue={"stepDefinition"}
 )
 
 public class TestRunner {

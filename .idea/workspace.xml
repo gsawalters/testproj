@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="856722de-3cc4-4efd-9d40-5d5b41f26feb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/TestRunner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/GoogleSearch_Steps.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/googletest.java" afterPath="$PROJECT_DIR$/src/test/java/Training/googletest.java" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Training/googletest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/TestRunner.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/GoogleSearch_Steps.java" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/GoogleSearch_Steps.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/google.feature" afterPath="$PROJECT_DIR$/src/test/resources/Features/google.feature" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/testproj-1.0-SNAPSHOT.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +46,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Test/WebDriver.java" />
         <option value="$PROJECT_DIR$/src/test/Features/google.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/Features/google.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinition/GoogleSearch_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberTest/TestRunner.java" />
       </list>
@@ -93,6 +92,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,14 +120,42 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumberTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepDefinition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,6 +167,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\GSAWa\IdeaProjects\testproj\src\test\stepDefinition" />
       <recent name="C:\Users\GSAWa\IdeaProjects\testproj\src\test\resources" />
       <recent name="C:\Users\GSAWa\IdeaProjects\testproj\src\test\Features" />
       <recent name="C:\Users\GSAWa\IdeaProjects\testproj\src\test" />
@@ -155,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber java.All Features in: Features">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -175,6 +206,52 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="All Features in: Features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/Features" />
+      <option name="GLUE" value="cucumber.api.spring stepDefinition" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="All Features in: Features" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testproj" />
+      <envs />
+    </configuration>
+    <configuration name="Scenario: Open Google" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/Features/google.feature" />
+      <option name="GLUE" value="cucumber.api.spring stepDefinition" />
+      <option name="myNameFilter" value="^Open Google$" />
+      <option name="myGeneratedName" value="Scenario: Open Google" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Open Google$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testproj" />
       <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -274,9 +351,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.googletest.usercanopengoogle" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Open Google" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.All Features in: Features" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.googletest.usercanopengoogle" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.All Features in: Features" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Open Google" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.googletest.usercanopengoogle" />
       </list>
     </recent_temporary>
   </component>
@@ -305,19 +389,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="googletest_usercanopengoogle - 2018.02.24 at 23h 03m 33s.xml">
-      <configuration name="googletest.usercanopengoogle" configurationId="JUnit" />
+    <history-entry file="All_Features_in__Features - 2018.02.27 at 21h 51m 55s.xml">
+      <configuration name="All Features in: Features" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="googletest_usercanopengoogle - 2018.02.24 at 23h 12m 14s.xml">
-      <configuration name="googletest.usercanopengoogle" configurationId="JUnit" />
+    <history-entry file="Scenario__Open_Google - 2018.02.27 at 21h 09m 29s.xml">
+      <configuration name="Scenario: Open Google" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="googletest_usercanopengoogle - 2018.02.24 at 23h 14m 06s.xml">
-      <configuration name="googletest.usercanopengoogle" configurationId="JUnit" />
+    <history-entry file="Scenario__Open_Google - 2018.02.27 at 21h 10m 26s.xml">
+      <configuration name="Scenario: Open Google" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="googletest_usercanopengoogle - 2018.02.24 at 23h 46m 25s.xml">
-      <configuration name="googletest.usercanopengoogle" configurationId="JUnit" />
+    <history-entry file="Scenario__Open_Google - 2018.02.27 at 21h 11m 11s.xml">
+      <configuration name="Scenario: Open Google" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="googletest_usercanopengoogle - 2018.02.24 at 23h 54m 16s.xml">
+    <history-entry file="Scenario__Open_Google - 2018.02.27 at 21h 13m 15s.xml">
+      <configuration name="Scenario: Open Google" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Open_Google - 2018.02.27 at 21h 21m 10s.xml">
+      <configuration name="Scenario: Open Google" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Open_Google - 2018.02.27 at 21h 22m 30s.xml">
+      <configuration name="Scenario: Open Google" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Open_Google - 2018.02.27 at 21h 22m 41s.xml">
+      <configuration name="Scenario: Open Google" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Open_Google - 2018.02.27 at 21h 29m 22s.xml">
+      <configuration name="Scenario: Open Google" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="googletest_usercanopengoogle - 2018.02.27 at 21h 23m 00s.xml">
       <configuration name="googletest.usercanopengoogle" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -326,6 +425,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -341,13 +441,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -454,34 +553,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/GoogleSearch_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Training/googletest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumberTest/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/GoogleSearch_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Training/googletest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/Features/google.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="42">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
