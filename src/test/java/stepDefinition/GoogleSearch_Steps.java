@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
@@ -16,9 +17,11 @@ public class GoogleSearch_Steps {
         open("http://google.com");
     }
 
-    @When("^I enter some text$")
-    public void i_enter_some_text() throws Throwable {
-        $(By.name("q")).setValue("testing").pressEnter();
+    @When("^I enter some text=(.*?)$")
+    public void i_enter_some_text(String text){
+        WebElement searchbox = $(By.name("q"));
+        $(searchbox).setValue(text).pressEnter();
+       // $(By.name("q")).setValue("text").pressEnter();
     }
 
 }

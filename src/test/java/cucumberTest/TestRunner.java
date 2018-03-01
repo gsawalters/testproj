@@ -7,7 +7,8 @@ package cucumberTest;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = ("src/test/resources/Features")
-        ,glue={"stepDefinition"}
+        ,glue={"stepDefinition"},
+        tags = {"~@ignore"}
 )
 
 public class TestRunner {
